@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #efefef;
+  color: #222;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+main {
+  width: 90%;
+  max-width: 90rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  min-height: 36rem;
+  flex: 0 0 32%;
+  margin-bottom: 2%;
+  background: #222;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 2rem -0.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.15s;
+  font-size: 12rem;
+  font-weight: bold;
+  text-shadow: 0 0.5rem 2rem -0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(3n - 1) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*
+If the card is either selected or matched, display the character by setting
+the background colour to white.
+*/
+.card.is-selected,
+.card.is-matched {
+  background: #fff;
+}
