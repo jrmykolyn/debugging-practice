@@ -12,9 +12,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
       // If we haven't selected 2 cards yet, add the current card to the
       // collection of selected cards and apply the correct CSS class.
-      // the correct CSS class.
       if (selectedCards.length < 2) {
         card.classList.add('is-selected');
+        selectedCards.push(card);
       }
 
       // If we have selected two cards, see if they mathch.
