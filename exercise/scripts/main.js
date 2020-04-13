@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function() {
         // Regardless of whether or not the cards match, deselect them and reset
         // the collection of matched cards.
         card1.classList.remove('is-selected');
-        card3.classList.remove('is-selected');
+        card2.classList.remove('is-selected');
         selectedCards = [];
       }
 
