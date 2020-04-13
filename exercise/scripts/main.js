@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   cards.forEach(function(card) {
     card.addEventListener('click', function() {
+
       // If the card has already been matched, ignore it.
       if (card.classList.contains('is-matched')) {
         return;
@@ -14,6 +15,7 @@ window.addEventListener('DOMContentLoaded', function() {
       // collection of selected cards and apply the correct CSS class.
       if (selectedCards.length < 2) {
         card.classList.add('is-selected');
+        selectedCards.push(card);
       }
 
       // If we have selected two cards, see if they match.
