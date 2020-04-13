@@ -9,11 +9,13 @@ window.addEventListener('DOMContentLoaded', function() {
       if (card.classList.contains('is-matched')) {
         return;
       }
-
+      
       // If we haven't selected 2 cards yet, add the current card to the
       // collection of selected cards and apply the correct CSS class.
       if (selectedCards.length < 2) {
         card.classList.add('is-selected');
+        selectedCards.push(card);
+        //console.log(selectedCards);
       }
 
       // If we have selected two cards, see if they match.
