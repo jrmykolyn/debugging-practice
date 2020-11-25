@@ -25,8 +25,7 @@ Our users have reported the following problems:
 - The game does not end, even after all the cards have been matched.
 
 ## Approach
-- Create 1x GitHub issue for each of the defects outlined above.
-- Debug and fix each defect (in order if possible). Introduce each fix by creating a branch, pushing it to the remote repository, creating a pull request, and merging it into the mainline branch.
+- Debug and fix each defect (in order if possible). Introduce each fix as a separate commit.
 
 Please review the accompanying class materials for additional details.
 
