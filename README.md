@@ -17,6 +17,12 @@ The game is intended to work as follows:
 - This continues until the user has matched all 6 cards.
 - When all 6 cards have been matched, a message is displayed and the game ends.
 
+## Bonus Features
+- Users are able to change the colour of the cards by adding any one of the following values to the end of the URL:
+- #green
+- #red
+- #orange
+
 ## Defects
 Our users have reported the following problems:
 - I am able to select more than 2 cards.
@@ -24,8 +30,11 @@ Our users have reported the following problems:
 - The cards are never flipped face down, regardless of whether or not they match.
 - The game does not end, even after all the cards have been matched.
 
+Additionally, adding the #green, #red, or #orange values to the URL and then refreshing the page _does not_ update the colour of the cards.
+
 ## Approach
 - Debug and fix each defect (in order if possible). Introduce each fix as a separate commit.
+- Focus on debugging the 'rules' (part 1)  before moving on to the 'bonus features' (part 2).
 
 Please review the accompanying class materials for additional details.
 
