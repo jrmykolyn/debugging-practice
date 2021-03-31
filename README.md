@@ -9,7 +9,7 @@ As part of this exercise you will debug a simple, browser-based 'card matching' 
 The game is intended to work as follows:
 - The user is presented with a selection of 3 pairs of cards, for a total of 6 cards.
 - Each pair of cards features a matching symbol.
-- All of the cards of displayed 'face down', meaning that the symbols are not visible.
+- All of the cards are displayed 'face down', meaning that the symbols are not visible.
 - The user will select two cards, one at a time.
 - When a card is selected it will be flipped 'face up', meaning that the symbol will be displayed.
 - If the symbols match, the cards will remain face up.
