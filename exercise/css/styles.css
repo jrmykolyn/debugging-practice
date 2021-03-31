@@ -82,3 +82,16 @@ main {
   margin-left: 4%;
   margin-right: 4%;
 }
+
+/* NOTE: These CSS classes are used in part 2 of the exercise. More specifically, they allow the user to customize the colour of the cards. */
+.cards--red .back {
+  background-color: #e55039;
+}
+
+.cards--green .back {
+  background-color: #78e08f;
+}
+
+.cards--orange .back {
+  background-color: #fa983a;
+}

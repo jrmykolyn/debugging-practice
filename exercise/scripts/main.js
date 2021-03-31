@@ -42,4 +42,17 @@ window.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  // Part 2: Allow the user to customize the colour of the cards.
+  // This is achieved by including one of the following values in the URL:
+  // - #green
+  // - #orange
+  // - #red
+  var deckElement = document.querySelector('.Cards');
+  var deckColor = window.location.hashh;
+
+  if (deckElement && deckColor) {
+    var className = 'cards--' + deckColor;
+    deckElement.classList.add(className);
+  }
 });
