@@ -29,3 +29,5 @@ Our users have reported the following problems:
 
 Please review the accompanying class materials for additional details.
 
+## Attribution
+- Card background by [Gordon Johnson](https://pixabay.com/users/gdj-1086657/), provided by [Pixabay](https://pixabay.com/).
